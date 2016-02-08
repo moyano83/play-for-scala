@@ -1,0 +1,18 @@
+@(products:List[Product])(implicit lang:Lang)
+@main(Messages("application.name"){
+<dl class="products">
+    @for(product <- products)
+    <dt>@product.name</dt>
+    <dt>@product.description</dt>
+</dl>
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
