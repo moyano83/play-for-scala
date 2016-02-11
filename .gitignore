@@ -7,4 +7,5 @@ target
 /.settings
 .sbtserver/
 .DS_Store
+*.log
 /RUNNING_PID
